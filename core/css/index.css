@@ -1,7 +1,15 @@
 
+/* === GLOBAL === */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Spectral", serif;
 }
+
+html {
+    height: 500vh;
+}
+
+/* === LANDING PAGE === */
 
 #landing-page {
     height: 100vh;
@@ -24,4 +32,26 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5vh;
     font-family: "Spectral", serif;
     font-size: 3vh;
+}
+
+/* === ABOUT PAGE === */
+
+#about-page {
+    text-align: center;
+    padding: 4%;
+    width: 92%;
+    color: white;
+    padding-top: 10vh;
+}
+
+#about-page h1 {
+    font-size: 4vh;
+    /* do something */
+}
+
+#about-page p {
+    font-family: "Work Sans", sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 2.25vh;
 }
