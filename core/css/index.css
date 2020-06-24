@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
-    height: 500vh;
+    height: 1000vh;
 }
 
 /* === LANDING PAGE === */
@@ -54,4 +54,84 @@ html {
     text-align: justify;
     line-height: 1.5;
     font-size: 2.25vh;
+}
+
+/* === SOLUTIONS PAGE === */
+
+#solutions-page {
+    color: white;
+    text-align: center;
+}
+
+#solutions-page h1 {
+    font-size: 4vh;
+}
+
+#solutions-page-software {
+    background-color: #b71540;
+    padding: 0.1vh 0 0.2vh 0;
+}
+
+#solutions-page-air-quality {
+    background-color: #079992;
+    padding: 0.1vh 0 0.2vh 0;
+}
+
+#solutions-page-water-quality {
+    background-color: #1e3799;
+    padding: 0.1vh 0 0.2vh 0;
+}
+
+.solutions-page-section h2 {
+    font-size: 3.5vh;
+}
+
+.solutions-page-solution {
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    color: black;
+    padding: 5%;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-bottom: 3vh;
+}
+
+.solutions-page-solution h3,p {
+    font-family: "Work Sans", sans-serif;
+}
+
+.solutions-page-solution h3 {
+    font-size: 2.5vh;
+}
+
+.solutions-page-solution p {
+    font-size: 2vh;
+    text-align: justify;
+}
+
+.solutions-page-solution-img {
+    width: 80vw;
+    height:50vw;
+    border-radius: 20px;
+}
+
+#solutions-page-solution-pos .solutions-page-solution-img {
+    background-image: url(../../assets/images/pos-system.jpg);
+    background-size: cover;
+}
+
+#solutions-page-solution-expert .solutions-page-solution-img {
+    background-image: url(../../assets/images/expert-systems.jpg);
+    background-size: cover;
+}
+
+#solutions-page-solution-ozone .solutions-page-solution-img {
+    background-image: url(../../assets/images/active-oxygen.jpg);
+    background-size: cover;
+}
+
+#solutions-page-solution-nanobubbles .solutions-page-solution-img {
+    background-image: url(../../assets/images/nanobubbles.jpg);
+    background-size: cover;
 }
