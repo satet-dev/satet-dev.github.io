@@ -166,3 +166,21 @@ setInterval(function() {
     }
 
 }, 100);
+
+let margin_left = ((window.innerWidth * 0.85) - $("#contact-button").width()) / 2;
+$("#contact-button").css("margin-left", margin_left.toString() + "px");
+
+
+setInterval(function() {
+
+    if ($("#solutions-page-solution-nanobubbles").is(":visible")) {
+        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + $("#solutions-page-water-quality h2").height() + $("#solutions-page-solution-nanobubbles").height() + (window.innerHeight * 0.8)) {
+            $("#footer").fadeIn(500, function() {});
+        } else {
+            $("#footer").fadeOut(500, function() {});
+        }
+    } else {
+        $("#footer").hide();
+    }
+
+}, 100);

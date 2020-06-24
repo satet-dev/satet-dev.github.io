@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
-    height: 1000vh;
+    height: 600vh;
 }
 
 /* === LANDING PAGE === */
@@ -134,4 +134,25 @@ html {
 #solutions-page-solution-nanobubbles .solutions-page-solution-img {
     background-image: url(../../assets/images/nanobubbles.jpg);
     background-size: cover;
+}
+
+/* === REST & FOOTER === */
+
+#contact-button {
+    display: inline-block;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 3vh;
+    padding: 5%;
+    text-decoration: none;
+    background-color: #fa983a;
+    margin-top: 7.5vh;
+    border-radius: 30px;
+}
+
+#footer p {
+    text-align: center;
+    color: white;
+    margin-top: 7.5vh;
+    font-size: 2vh;
 }
