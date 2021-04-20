@@ -74,113 +74,115 @@ setInterval(function() {
 
 }, 100);
 
-$("#solutions-page h1").hide();
+// $("#solutions-page h1").hide();
 
-$("#solutions-page-software").hide();
-$("#solutions-page-software h2").hide();
-$("#solutions-page-solution-pos").hide();
-$("#solutions-page-solution-expert").hide();
+// $("#solutions-page-software").hide();
+// $("#solutions-page-software h2").hide();
+// $("#solutions-page-solution-pos").hide();
+// $("#solutions-page-solution-expert").hide();
 
-$("#solutions-page-air-quality").hide();
-$("#solutions-page-air-quality h2").hide();
-$("#solutions-page-solution-ozone").hide();
+// $("#solutions-page-air-quality").hide();
+// $("#solutions-page-air-quality h2").hide();
+// $("#solutions-page-solution-ozone").hide();
 
-$("#solutions-page-water-quality").hide();
-$("#solutions-page-water-quality h2").hide();
-$("#solutions-page-solution-nanobubbles").hide();
+// $("#solutions-page-water-quality").hide();
+// $("#solutions-page-water-quality h2").hide();
+// $("#solutions-page-solution-nanobubbles").hide();
 
-setInterval(function() {
+// setInterval(function() {
 
-    if ($("#about-page-p4").is(":visible")) {
+//     if ($("#about-page-p4").is(":visible")) {
 
-        $("#solutions-page").show();
+//         $("#solutions-page").show();
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + (window.innerHeight * 0.3)) {
-            $("#solutions-page h1").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page h1").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + (window.innerHeight * 0.3)) {
+//             $("#solutions-page h1").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page h1").fadeOut(500, function() {});
+//         }
     
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + (window.innerHeight * 0.4)) {
-            $("#solutions-page-software").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-software").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + (window.innerHeight * 0.4)) {
+//             $("#solutions-page-software").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-software").fadeOut(500, function() {});
+//         }
     
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + (window.innerHeight * 0.3)) {
-            $("#solutions-page-software h2").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-software h2").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + (window.innerHeight * 0.3)) {
+//             $("#solutions-page-software h2").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-software h2").fadeOut(500, function() {});
+//         }
     
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + (window.innerHeight * 0.3)) {
-            $("#solutions-page-solution-pos").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-solution-pos").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + (window.innerHeight * 0.3)) {
+//             $("#solutions-page-solution-pos").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-solution-pos").fadeOut(500, function() {});
+//         }
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + (window.innerHeight * 0.3)) {
-            $("#solutions-page-solution-expert").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-solution-expert").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + (window.innerHeight * 0.3)) {
+//             $("#solutions-page-solution-expert").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-solution-expert").fadeOut(500, function() {});
+//         }
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + (window.innerHeight * 0.7)) {
-            $("#solutions-page-air-quality").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-air-quality").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + (window.innerHeight * 0.7)) {
+//             $("#solutions-page-air-quality").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-air-quality").fadeOut(500, function() {});
+//         }
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + (window.innerHeight * 0.3)) {
-            $("#solutions-page-air-quality h2").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-air-quality h2").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + (window.innerHeight * 0.3)) {
+//             $("#solutions-page-air-quality h2").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-air-quality h2").fadeOut(500, function() {});
+//         }
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + (window.innerHeight * 0.5)) {
-            $("#solutions-page-solution-ozone").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-solution-ozone").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + (window.innerHeight * 0.5)) {
+//             $("#solutions-page-solution-ozone").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-solution-ozone").fadeOut(500, function() {});
+//         }
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + (window.innerHeight * 0.9)) {
-            $("#solutions-page-water-quality").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-water-quality").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + (window.innerHeight * 0.9)) {
+//             $("#solutions-page-water-quality").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-water-quality").fadeOut(500, function() {});
+//         }
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + $("#solutions-page-water-quality h2").height() + (window.innerHeight * 0.3)) {
-            $("#solutions-page-water-quality h2").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-water-quality h2").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + $("#solutions-page-water-quality h2").height() + (window.innerHeight * 0.3)) {
+//             $("#solutions-page-water-quality h2").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-water-quality h2").fadeOut(500, function() {});
+//         }
 
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + $("#solutions-page-water-quality h2").height() + $("#solutions-page-solution-nanobubbles").height() + (window.innerHeight * 0.7)) {
-            $("#solutions-page-solution-nanobubbles").fadeIn(500, function() {});
-        } else {
-            $("#solutions-page-solution-nanobubbles").fadeOut(500, function() {});
-        }
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + $("#solutions-page-water-quality h2").height() + $("#solutions-page-solution-nanobubbles").height() + (window.innerHeight * 0.7)) {
+//             $("#solutions-page-solution-nanobubbles").fadeIn(500, function() {});
+//         } else {
+//             $("#solutions-page-solution-nanobubbles").fadeOut(500, function() {});
+//         }
 
-    } else {
-        $("#solutions-page").hide();
-    }
+//     } else {
+//         $("#solutions-page").hide();
+//     }
 
-}, 100);
+// }, 100);
 
-let margin_left = ((window.innerWidth * 0.85) - $("#contact-button").width()) / 2;
+let margin_left = ((window.innerWidth * 0.9) - $("#contact-button").width()) / 2;
 $("#contact-button").css("margin-left", margin_left.toString() + "px");
+margin_left = ((window.innerWidth * 0.6) - $("#privacy-policy").width()) / 2;
+$("#privacy-policy").css("margin-left", margin_left.toString() + "px");
 
 
-setInterval(function() {
+// setInterval(function() {
 
-    if ($("#solutions-page-solution-nanobubbles").is(":visible")) {
-        if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + $("#solutions-page-water-quality h2").height() + $("#solutions-page-solution-nanobubbles").height() + (window.innerHeight * 0.8)) {
-            $("#footer").fadeIn(500, function() {});
-        } else {
-            $("#footer").fadeOut(500, function() {});
-        }
-    } else {
-        $("#footer").hide();
-    }
+//     if ($("#solutions-page-solution-nanobubbles").is(":visible")) {
+//         if ($("html").scrollTop() >= $("#about-page").height() + $("#solutions-page h1").height() + $("#solutions-page-software h2").height() + $("#solutions-page-solution-pos").height() + $("#solutions-page-solution-expert").height() + $("#solutions-page-air-quality h2").height() + $("#solutions-page-solution-ozone").height() + $("#solutions-page-water-quality h2").height() + $("#solutions-page-solution-nanobubbles").height() + (window.innerHeight * 0.8)) {
+//             $("#footer").fadeIn(500, function() {});
+//         } else {
+//             $("#footer").fadeOut(500, function() {});
+//         }
+//     } else {
+//         $("#footer").hide();
+//     }
 
-}, 100);
+// }, 100);
